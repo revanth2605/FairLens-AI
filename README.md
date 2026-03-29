@@ -1,0 +1,1 @@
+# FairLens AI\\n\\nSkeleton project for the FairLens bias analysis app.\\n\\n- Frontend: Vite + React\\n- Backend: FastAPI\\n- DB: Mongo (placeholder)\\n\\nRun backend locally:\\n\\n```bash\\npython -m uvicorn app.main:app --reload --app-dir backend/app\\n```\\n

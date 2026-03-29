@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+transformers
+torch
+pymongo
+shap
+numpy
+scikit-learn
+python-multipart
