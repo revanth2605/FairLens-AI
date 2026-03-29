@@ -6,9 +6,7 @@ Loads the saved DistilBERT model and predicts bias in text
 import torch
 import numpy as np
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-import os
-BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR  = os.path.join(BASE_DIR, "saved_model")   # folder where your trained model is saved
+MODEL_DIR = "revanthkothamasu26/fairlens-model"
 MAX_LENGTH = 128
 LABELS     = {0: "Not Biased", 1: "Biased"}
 
