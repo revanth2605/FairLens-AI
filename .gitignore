@@ -4,8 +4,6 @@ __pycache__/
 node_modules/
 .env
 data/
-*.csv
-*.json
 saved_model/
 *.safetensors
 *.bin
