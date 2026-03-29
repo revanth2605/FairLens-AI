@@ -1,10 +1,25 @@
+# Model weights (too large for GitHub)
+backend/app/services/saved_model/
+
+# Training data
+data/
+
+# Python
 .venv/
 __pycache__/
 *.pyc
-node_modules/
+*.pyo
+*.egg-info/
+
+# Node
+frontend/node_modules/
+
+# Environment files
 .env
-data/
-backend/app/services/saved_model/
-*.safetensors
-*.bin
-*.pt
+*.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
