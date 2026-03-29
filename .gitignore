@@ -6,5 +6,7 @@ node_modules/
 data/
 *.csv
 *.json
-*.pt
+saved_model/
+*.safetensors
 *.bin
+*.pt
